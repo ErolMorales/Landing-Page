@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="layout">
+      <!-- HEADER -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><strong>EROL</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/landing.html">Boletin</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/login.html">Login</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="container my-5">
+        <!-- contenido principal -->
+        <h1 class="fst-italic">Landing</h1>
+        <hr/>
+        <form>
+          <div class="my-3">
+            <label class="form-label">Correo:</label>
+            <input type="email" class="form-control" required/>
+          </div>
+          <div class="my-3">
+            <label class="form-label">Telefono:</label>
+            <input type="tel" class="form-control" required/>
+          </div>
+          <div class="my-3">
+            <label class="form-label">Nombres</label>
+            <input type="text" class="form-control" required/>
+          </div>
+          <div class="my-3">
+            <label class="form-label">Apellidos</label>
+            <input type="text" class="form-control" required/>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="">
+            <label class="form-check-label" for="flexCheckDefault" required><small class="text-muted">Acepto los terminos</small></label>
+          </div>
+          <div class="mt-4">
+            <button type="submit" class="btn btn-outline-primary">Suscribirme</button>
+          </div>
+        </form>
+      </main>
+      <!-- footer -->
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center border-top bg-dark text-white">
+        <div class="col-md-4 d-flex align-items-center p-3">
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Erol, Inc</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex p-3">
+          <li class="ms-3">
+            <a class="link-light" href="#">Acerca de #1</a>
+          </li>
+          <li class="ms-3">
+            <a class="link-light" href="#">Acerca de #2</a>
+          </li>
+
+          <li class="ms-3">
+            <a class="link-light" href="#">Acerca de #3</a>
+          </li>
+        </ul>
+      </footer>
+      
+    </div>
+
+  
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
